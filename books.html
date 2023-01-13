@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Books Database Form</title>
+
+<style>
+.wrapper{ background-color: #b0bea9;
+height : 400px;
+width : 500px;
+text-align: center;
+margin : 20px;
+margin-left:30%;
+align:center;
+}
+
+#image{
+height : 50px;
+width:70px;
+
+
+}
+</style>
+</head>
+<body >
+
+<div class="wrapper">
+<br>
+	<h2>Books Database Form </h2>
+<br>
+
+	<form method="post" action="query.php" target="_blank">
+		ISBN  <input type="text" name="isbn" >
+		<br><br>
+		
+		Author <input type="text" name="author">
+		<br><br>
+		
+		Title <input type="text" name="title" >
+		<br><br>
+		
+		Genre <select name="genre">
+			<option value="Fantasy">Fantasy</option>
+   			<option value="Adventure">Adventure</option>
+			<option value="Fiction">Fiction</option>
+			<option value="Horror">Horror</option>
+			<option value="Sci-Fi">Sci-Fi</option>
+			</select>
+		<br>
+              <br>
+	
+	<input type="submit">
+
+<br><br>
+
+		<a href="search.html">Search for a book</a>
+
+</form>
+
+</div>
+
+
+
+</body></html>
